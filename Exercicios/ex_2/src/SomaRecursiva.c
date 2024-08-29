@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int contaoperacoes = 0;
+
 int somaRecursiva(int n) {
     if (n == 1) {
         return 1;
